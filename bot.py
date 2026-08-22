@@ -66,7 +66,7 @@ def get_matches():
 
 def main():
     keepers = load_keepers()
-    print("Keeper alert bot gestart")
+print("Keeper alert bot gestart", flush=True)
 
     while True:
         try:
