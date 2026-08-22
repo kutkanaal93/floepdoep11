@@ -43,8 +43,8 @@ def load_keepers():
 
             keepers.add((norm(club), norm(keeper)))
 
-    print(f"CSV geladen: {len(keepers)} keepers")
-    return keepers
+print("CSV geladen:", len(keepers), "keepers", flush=True)
+return keepers
 
 
 def send_discord(message):
